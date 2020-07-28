@@ -1,0 +1,55 @@
+@import 'responsive';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+
+  .all {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    #input-box {
+      width: 50%;
+      margin: auto;
+      height: 10rem;
+      text-align: center;
+      border: 0.1rem solid black;
+      font-size: 2rem;
+      outline: none;
+    }
+
+    .elements {
+      width: 50.7%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+
+      .elementss {
+        width: 33.3%;
+        height: 4rem;
+        font-size: 1.5rem;
+      }
+    }
+    .equal-div {
+      width: 50.7%;
+      background-color: black;
+      margin: auto;
+     
+      .equal {
+          width: 100%;
+          height: 3rem;
+          font-size: 2.5rem;
+      }
+    }
+  }
+}
+

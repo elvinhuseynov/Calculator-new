@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="all">
+            <input type="text" id="input-box" readonly>
+
+        
+        <div class="elements">
+            <input type="button" value="1" class="elementss" onclick="getNumber(1)" />
+            <input type="button" value="2" class="elementss" onclick="getNumber(2)" />
+            <input type="button" value="3" class="elementss" onclick="getNumber(3)" />
+    
+            <input type="button" value="4" class="elementss" onclick="getNumber(4)" />
+            <input type="button" value="5" class="elementss" onclick="getNumber(5)" />
+            <input type="button" value="6" class="elementss" onclick="getNumber(6)" />
+    
+            <input type="button" value="7" class="elementss" onclick="getNumber(7)" />
+            <input type="button" value="8" class="elementss" onclick="getNumber(8)" />
+            <input type="button" value="9" class="elementss" onclick="getNumber(9)" />
+    
+            <input type="button" value="+" class="elementss" onclick="getOperand('-')" />
+            <input type="button" value="0" class="elementss" onclick="getNumber(0)" />
+            <input type="button" value="-" class="elementss" onclick="getOperand('+')" />
+
+            <input type="button" value="x" class="elementss" onclick="getOperand('*')" />
+            <input type="button" value="AC" class="elementss" onclick="clearScreen()" />
+            <input type="button" value="/" class="elementss" onclick="getOperand('/')" />
+        </div>
+
+        <div class="equal-div">
+            <input type="button" class="equal" value="=" onclick="compute()" />
+        </div>
+    </div>
+
+</body>
+<script src="/script/main.js"></script>
+</html>

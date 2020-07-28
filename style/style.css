@@ -1,0 +1,87 @@
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 7.5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media scrren and (max-width: 1200px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+}
+
+body .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+}
+
+body .all #input-box {
+  width: 50%;
+  margin: auto;
+  height: 10rem;
+  text-align: center;
+  border: 0.1rem solid black;
+  font-size: 2rem;
+  outline: none;
+}
+
+body .all .elements {
+  width: 50.7%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .all .elements .elementss {
+  width: 33.3%;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+
+body .all .equal-div {
+  width: 50.7%;
+  background-color: black;
+  margin: auto;
+}
+
+body .all .equal-div .equal {
+  width: 100%;
+  height: 3rem;
+  font-size: 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */
